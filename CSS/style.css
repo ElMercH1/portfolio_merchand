@@ -4,6 +4,7 @@
   height: 100vh;
   position: relative;
   justify-content: center;
+  z-index: -1;
 }
 
 .contenedor_subtitulo {
@@ -36,7 +37,7 @@ h2{
   border-radius: 20px;
   position: fixed;
   transform: rotate(-15deg);
-  width: 600px;
+  width: 85vh;
 }
 
 .content {
