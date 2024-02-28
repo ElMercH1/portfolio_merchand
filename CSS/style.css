@@ -13,12 +13,6 @@
   right: 10px; /* Ajusta la distancia desde la izquierda */
 }
 
-@media only screen and (max-width: 600px) {
-  /* Cambiar a posición absoluta en pantallas pequeñas */
-  .contenedor_logo {
-    position: absolute;
-  }
-}
 
 .contenedor_logo img{
   width: 5vh;
@@ -27,7 +21,7 @@
 
 .titulo_intro {
   color: #fff;
-  font-size: 10vh;
+  font-size: 100px;
   font-weight: 700;
   padding: 0 20px;
   position: absolute;
@@ -35,6 +29,12 @@
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 600px) {
+  /* Cambiar a posición absoluta en pantallas pequeñas */
+  .titulo_intro {
+    font-size: 5vh;
+  }
+}
 .titulo_secundario {
   color: transparent;
   -webkit-text-stroke: 2px rgb(255, 255, 255);
