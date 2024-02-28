@@ -13,11 +13,16 @@
   right: 10px; /* Ajusta la distancia desde la izquierda */
 }
 
+.contenedor_logo.invertido {
+  filter: invert(100%); /* Invertir los colores de la imagen al 100% */
+}
 
 .contenedor_logo img{
+  filter: invert(100%);
   width: 5vh;
   height: 5vh;
 }
+
 
 .titulo_intro {
   color: #fff;
