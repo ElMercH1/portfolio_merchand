@@ -55,15 +55,24 @@
 .video_intro {
   border-radius: 20px;
   position: fixed;
-  transform: rotate(-15deg);
   width: 65vw;
+  transition: transform 0.5s ease;
 }
 
-.content {
+.subtitulo {
   background-color: #eaeaea;
   font-size: 40px;
-  padding: 120px 80px;
-  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: center;
+  display: flex;
+  height: 20vh;
+}
+
+.portafolio_seccion{
+
+  height: 50vh;
+
 }
 
 body {
