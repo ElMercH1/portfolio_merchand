@@ -17,10 +17,16 @@
   filter: invert(100%); /* Invertir los colores de la imagen al 100% */
 }
 
-.contenedor_logo img{
+.contenedor_logo img {
   filter: invert(100%);
   width: 5vh;
   height: 5vh;
+  transition: transform 0.5s ease, filter 0.5s ease; /* Transición suave de 0.5 segundos para la transformación y la inversión de colores */
+}
+
+.contenedor_logo img:hover {
+  transform: rotate(25deg); /* Rotar la imagen 25 grados */
+  filter: invert(0%); /* Invertir los colores de la imagen al 0% */
 }
 
 
