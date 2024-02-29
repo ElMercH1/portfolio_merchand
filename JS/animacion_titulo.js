@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const logo = document.querySelector('.contenedor_logo img');
     const video = document.querySelector('.video_intro')
-    const scrollThreshold = 150; // Cambia este valor según la cantidad de scroll deseada
+    const scrollThreshold = 50; // Cambia este valor según la cantidad de scroll deseada
   
     window.addEventListener('scroll', function() {
       if (window.scrollY > scrollThreshold) {
