@@ -25,7 +25,7 @@
 }
 
 .contenedor_logo img:hover {
-  transform: rotate(25deg); /* Rotar la imagen 25 grados */
+  transform: rotate(-15deg); /* Rotar la imagen 25 grados */
   filter: invert(0%); /* Invertir los colores de la imagen al 0% */
 }
 
