@@ -60,9 +60,11 @@
   font-size: 40px;
   padding-top: 80px;
   padding-bottom: 80px;
-  justify-content: center;
+  justify-content: space-around;
   display: flex;
   height: 20vh;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .portafolio_seccion{
